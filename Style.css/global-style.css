@@ -1,0 +1,139 @@
+/* ==========================================================================
+   1. REGULATORY CODE SYSTEM & PALETTE VARIABLES
+      ========================================================================== */
+      :root {
+          /* Color Palette Codes from Planning Document Document */
+              --primary-color: #0B3C5D;    /* Deep Ocean Blue - Main Headers & Structure */
+                  --secondary-color: #328CC1;  /* Sky Blue - Links & Interactive Accents */
+                      --accent-color: #D9B310;     /* Sand Gold - Call to Action Elements */
+                          --text-dark: #1D2731;        /* Midnight Dark - High-Contrast Text */
+                              --bg-light: #F8FAFC;         /* Off-White - General Background Canvas */
+                                  --bg-white: #FFFFFF;         /* Pure White - Content Blocks & Form Inputs */
+                                      
+                                          /* Layout Constants */
+                                              --max-width: 1200px;
+                                                  --border-radius: 8px;
+                                                      --transition-speed: 0.3s;
+                                                      }
+
+                                                      /* Base Level Universal Document Reset */
+                                                      * {
+                                                          box-sizing: border-box;
+                                                              margin: 0;
+                                                                  padding: 0;
+                                                                  }
+
+                                                                  body {
+                                                                      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+                                                                          font-size: 1rem;
+                                                                              line-height: 1.6;
+                                                                                  color: var(--text-dark);
+                                                                                      background-color: var(--bg-light);
+                                                                                          display: flex;
+                                                                                              flex-direction: column;
+                                                                                                  min-height: 100vh;
+                                                                                                  }
+
+                                                                                                  img {
+                                                                                                      max-width: 100%;
+                                                                                                          height: auto;
+                                                                                                              display: block;
+                                                                                                              }
+
+                                                                                                              /* ==========================================================================
+                                                                                                                 2. TYPOGRAPHY SCALING SYSTEM
+                                                                                                                    ========================================================================== */
+                                                                                                                    h1, h2, h3 {
+                                                                                                                        color: var(--primary-color);
+                                                                                                                            margin-bottom: 1.25rem;
+                                                                                                                                font-weight: 600;
+                                                                                                                                }
+
+                                                                                                                                h1 { font-size: 2.5rem; line-height: 1.2; }
+                                                                                                                                h2 { font-size: 2rem; border-bottom: 2px solid var(--secondary-color); padding-bottom: 0.5rem; }
+                                                                                                                                h3 { font-size: 1.35rem; }
+                                                                                                                                p { margin-bottom: 1.2rem; }
+
+                                                                                                                                /* ==========================================================================
+                                                                                                                                   3. STRUCTURAL FLEXBOX HEADER AND STICKY NAVIGATION
+                                                                                                                                      ========================================================================== */
+                                                                                                                                      header {
+                                                                                                                                          background-color: var(--primary-color);
+                                                                                                                                              padding: 1.1rem 2rem;
+                                                                                                                                                  position: sticky;
+                                                                                                                                                      top: 0;
+                                                                                                                                                          z-index: 1000;
+                                                                                                                                                              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                  display: flex;
+                                                                                                                                                                      justify-content: space-between;
+                                                                                                                                                                          align-items: center;
+                                                                                                                                                                          }
+
+                                                                                                                                                                          header .logo {
+                                                                                                                                                                              color: var(--bg-white);
+                                                                                                                                                                                  font-size: 1.5rem;
+                                                                                                                                                                                      font-weight: 700;
+                                                                                                                                                                                          letter-spacing: 0.5px;
+                                                                                                                                                                                          }
+
+                                                                                                                                                                                          /* Flexbox horizontal navigation setup tracking separate lists */
+                                                                                                                                                                                          header nav ul {
+                                                                                                                                                                                              list-style: none;
+                                                                                                                                                                                                  display: flex;
+                                                                                                                                                                                                      gap: 1.25rem;
+                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                      header nav ul li a {
+                                                                                                                                                                                                          color: var(--bg-white);
+                                                                                                                                                                                                              text-decoration: none;
+                                                                                                                                                                                                                  font-weight: 500;
+                                                                                                                                                                                                                      font-size: 1rem;
+                                                                                                                                                                                                                          padding: 0.5rem 0.85rem;
+                                                                                                                                                                                                                              border-radius: 4px;
+                                                                                                                                                                                                                                  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                  /* Accessibility Focus States Tracking Layer */
+                                                                                                                                                                                                                                  header nav ul li a:hover,
+                                                                                                                                                                                                                                  header nav ul li a:focus {
+                                                                                                                                                                                                                                      background-color: var(--secondary-color);
+                                                                                                                                                                                                                                          color: var(--bg-white);
+                                                                                                                                                                                                                                              outline: none;
+                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                              main {
+                                                                                                                                                                                                                                                  max-width: var(--max-width);
+                                                                                                                                                                                                                                                      margin: 2.5rem auto;
+                                                                                                                                                                                                                                                          padding: 0 1.5rem;
+                                                                                                                                                                                                                                                              flex: 1;
+                                                                                                                                                                                                                                                                  width: 100%;
+                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                  /* ==========================================================================
+                                                                                                                                                                                                                                                                     4. CONSTANT SITE-WIDE FOOTER ARCHITECTURE
+                                                                                                                                                                                                                                                                        =================================================================== */
+                                                                                                                                                                                                                                                                        footer {
+                                                                                                                                                                                                                                                                            background-color: var(--text-dark);
+                                                                                                                                                                                                                                                                                color: #94A3B8; /* Muted contrast tone alignment compliant with visibility rules */
+                                                                                                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                                                                                                        padding: 1.5rem;
+                                                                                                                                                                                                                                                                                            margin-top: auto;
+                                                                                                                                                                                                                                                                                                font-size: 0.9rem;
+                                                                                                                                                                                                                                                                                                    border-top: 4px solid var(--primary-color);
+                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                    /* ==========================================================================
+                                                                                                                                                                                                                                                                                                       5. RESPONSIVE STRUCTURE BASELINE TRANSFORMS (Media Queries)
+                                                                                                                                                                                                                                                                                                          ========================================================================== */
+                                                                                                                                                                                                                                                                                                          @media (max-width: 768px) {
+                                                                                                                                                                                                                                                                                                              header {
+                                                                                                                                                                                                                                                                                                                      flex-direction: column;
+                                                                                                                                                                                                                                                                                                                              gap: 1.2rem;
+                                                                                                                                                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                                              header nav ul {
+                                                                                                                                                                                                                                                                                                                                                      gap: 0.5rem;
+                                                                                                                                                                                                                                                                                                                                                              flex-wrap: wrap;
+                                                                                                                                                                                                                                                                                                                                                                      justify-content: center;
+                                                                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                                                                          }
