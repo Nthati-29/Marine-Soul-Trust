@@ -41,6 +41,17 @@ Responsive Navigation: A unified navigation bar across all five pages using sema
    [1.2.0] – 2026-04-19: Developed about.html with history and vision integration.
    [1.3.0] – 2026-04-19: Technical implementation of responsive CSS (Flexbox/Grid) and form integration.
    [1.4.0] – 2026-04-19: Finalized project documentation, academic referencing, and academic integrity compliance.
+Changelog for CSS
+
+Build v1.1.0 (CSS Reset Alignment Sweep): Configured a full cascading style reset layer across the universal document tree to negate disparate default browser margin and spacing frameworks.
+
+Build v1.1.1 (Relative Unit Conversion): Shifted structural spacing containers, visual border parameters, and nested typography metrics out of rigid absolute pixels into scalable relative units (`em` and `rem`).
+
+Build v1.1.2 (Interactive State Integrations): Hardcoded complete accessibility focus tracking attributes (`:hover`, `:focus`, and `:active`) across all form items and relative navigations.
+
+Build v1.1.3 (Asset Pipeline Normalization): Repaired whitespace gaps inside visual pathing addresses to circumvent Unix/Linux server rendering faults upon Git remote repository delivery.
+
+Build v1.1.4 (Adaptive Viewport Breakpoints): Deployed dedicated `@media` query blocks breaking at `1024px` and `768px` to cleanly manage architectural multi-column split layout collapse patterns on small viewports.
  References (Harvard Anglia Style)
 Primary Sources:
  Independent Institute of Education (2026) WEDE5020POE Module Guide. Johannesburg: IIE.
@@ -60,5 +71,10 @@ Unsplash (2026) Clownfish. [Online]. Available at: https://images.unsplash.com/p
 Tools & Development Resources:
 Figma (2026) Figma Interface Design Tool. [Online]. Available at: https://www.figma.com (Accessed: 19 April 2026).
 W3Schools (2026) HTML, CSS and JavaScript Tutorials. [Online]. Available at: https://www.w3schools.com (Accessed: 19 April 2026).
+Branch, G.M., Griffiths, C.L., Branch, M.L. and Beckley, L.E., 2017. Two Oceans: A guide to the marine life of southern Africa. 4th ed. Cape Town: Struik Nature.
+Mozilla Developers Network, 2026. CSS: Cascading Style Sheets. [Online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 17 May 2026].
+W3C, 2025. *Web Content Accessibility Guidelines (WCAG) Overview. [Online] Available at: <https://www.w3.org/WAI/standards-guidelines/wcag/> [Accessed 20 May 2026].
+
+
 YouTube (2026) Web Development Tutorials. [Online]. Available at: https://www.youtube.com (Accessed: 19 April 2026).
 W3C (2025) Web Content Accessibility Guidelines (WCAG) Overview. [Online]. Available at: https://www.w3.org (Accessed: 19 April 2026).
