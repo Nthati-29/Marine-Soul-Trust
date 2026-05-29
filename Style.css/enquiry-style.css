@@ -54,7 +54,7 @@
     transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
 }
 
-/* High-Contrast Focused Input Visual States (Requirement: 1000211641.jpg) */
+/* High-Contrast Focused Input Visual States */
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
