@@ -12,6 +12,15 @@
     gap: 2.5rem;
 }
 
+.contact-details p {
+    margin-bottom: 1.5rem;
+
+}
+
+.contact-details p:last-child {
+    margin-bottom: 0;
+}
+
 .contact-section {
     background: var(--bg-white);
     padding: 2.5rem;
