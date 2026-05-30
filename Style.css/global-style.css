@@ -33,16 +33,17 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, form, label, input, select
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-    font-size: 1rem;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body { 
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; 
+  background-color: var(--bg-light); 
+  color: var(--text-dark); 
+  font-size: 1rem; 
+  line-height: 1.6; 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
 }
+
 
 /* 2. RELATIVE TYPOGRAPHY SCALING DESIGN SYSTEM  */
 h1, h2, h3 {
