@@ -21,7 +21,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, form, label, input, select
 }
 
 /* Universal Base Box-Sizing Adjustments */
- {
+ *, *::before, *::after{
     box-sizing: border-box;
 }
 
