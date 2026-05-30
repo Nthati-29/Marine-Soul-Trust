@@ -1,8 +1,9 @@
 /* HERO BANNER FLEXBOX ENGINE CONFIGURATION */
 .hero-container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    max-width: 100% !important;
+    width: 100% !important; /* Force width to override global main */
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .hero {
@@ -22,14 +23,14 @@
     color: var(--bg-white);
     font-size: 3.5rem;
     max-width: 50rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0 auto 1.5rem auto;
     text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 1.35rem;
     max-width: 42rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0 auto 2.5rem auto;
     color: #E2E8F0;
 }
 
