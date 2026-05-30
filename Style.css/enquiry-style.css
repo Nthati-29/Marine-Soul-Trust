@@ -88,6 +88,6 @@
 
 @media (max-width: 768px) {
     .enquiry-card { padding: 2rem 1.25rem; }
-    .contact-form button { align-self: stroke; width: 100%; text-align: center; }
+    .contact-form button { align-self: stretch; width: 100%; text-align: center; }
 }
                                         
