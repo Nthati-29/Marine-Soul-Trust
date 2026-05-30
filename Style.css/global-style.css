@@ -9,27 +9,19 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, form, label, input, select
 
 /* Base Variable Engine Profiles */
 :root {
- --primary-color: #0B3C5D;    /* Deep Ocean Blue Core */
-
-    --secondary-color: #328CC1;  /* Vivid Aqua Marine Contrast Accent */
-
-    --accent-color: #D9B310;     /* Gold Sand Highlights */
-
-    --text-dark: #1D2731;        /* Deep Charcoal High Contrast Typography */
-
-    --bg-light: #F8FAFC;         /* Light Blue-Grey Background Canvas */
-
-    --bg-white: #FFFFFF;         /* Pure Structural White Panels */
-
-    --max-width: 75rem;          /* Relative 1200px Constrained Boundaries */
-
-    --border-radius: 0.5rem;     /* Standardized Rem Curvature Profile */
-
-    --transition-speed: 0.25s;   /* Global Interactive Transform Metric */
+--primary-color: #0B3C5D;    /* Deep Ocean Blue Core */
+--secondary-color: #328CC1;  /* Vivid Aqua Marine Contrast Accent */
+--accent-color: #D9B310;     /* Gold Sand Highlights */
+--text-dark: #1D2731;        /* Deep Charcoal High Contrast Typography */
+--bg-light: #F8FAFC;         /* Light Blue-Grey Background Canvas */
+--bg-white: #FFFFFF;         /* Pure Structural White Panels */
+--max-width: 75rem;          /* Relative 1200px Constrained Boundaries */
+--border-radius: 0.5rem;     /* Standardized Rem Curvature Profile */
+--transition-speed: 0.25s;   /* Global Interactive Transform Metric */
 }
 
 /* Universal Base Box-Sizing Adjustments */
-* {
+ {
     box-sizing: border-box;
 }
 
