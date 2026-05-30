@@ -56,6 +56,13 @@ Build v1.1.4 (Adaptive Viewport Breakpoints): Deployed dedicated `@media` query 
 Primary Sources:
  Independent Institute of Education (2026) WEDE5020POE Module Guide. Johannesburg: IIE.
 
+ Screenshots for device responsiveness
+ <img src="Screenshots/1.PNG" alt="Project Screenshot" width="600">
+ <img src="Screenshots/2.PNG" alt="Project Screenshot" width="600">
+ <img src="Screenshots/3.PNG" alt="Project Screenshot" width="600">
+ <img src="Screenshots/4.PNG" alt="Project Screenshot" width="600">
+ <img src="Screenshots/5.PNG" alt="Project Screenshot" width="600">
+
  Media Assets:
   Unsplash (2026) *Marine Conservation Imagery. [Online]. Available at: https://unsplash.com (Accessed: 19 April 2026).
 Mozilla Developers Network (2026) HTML: HyperText Markup Language. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 18 April 2026).
